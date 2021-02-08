@@ -147,16 +147,6 @@ class FirebaseReact extends React.Component {
               </form>
             </div>
           </div>
-          <div className="row">
-            <div className="col-xl-12">
-              <h3>
-                Tutorial{" "}
-                <a href="https://sebhastian.com/react-firebase-real-time-database-guide">
-                  here
-                </a>
-              </h3>
-            </div>
-          </div>
         </div>
     );
   }
