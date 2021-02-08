@@ -1,7 +1,8 @@
 import React from "react";
 import Firebase from "firebase";
-import config from "../config";
+import config from './config'
 import "bootstrap/dist/css/bootstrap.css";
+import "./firebase.css";
 
 
 class FirebaseReact extends React.Component {
@@ -82,10 +83,11 @@ class FirebaseReact extends React.Component {
   render() {
     const { developers } = this.state;
     return (
+      <div className="firebase">
         <div className="container">
           <div className="row">
             <div className="col-xl-12">
-              <h1>Firebase Development Team</h1>
+              <h1> employee health monitoring system  </h1>
             </div>
           </div>
           <div className="row">
@@ -148,6 +150,7 @@ class FirebaseReact extends React.Component {
             </div>
           </div>
         </div>
+      </div>
     );
   }
 }

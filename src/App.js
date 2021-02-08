@@ -1,5 +1,5 @@
 import React from "react";
-import FirebaseReact from './components/firebase'
+import FirebaseReact from './components/firebase/Firebase'
 
 function App() {
   return (
